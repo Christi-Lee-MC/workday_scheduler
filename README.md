@@ -20,4 +20,4 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-https://courses.bootcampspot.com/courses/562/files/515175/preview
+https://user-images.githubusercontent.com/79948400/115154647-d9ed1600-a030-11eb-9ad5-8478dac6703d.png

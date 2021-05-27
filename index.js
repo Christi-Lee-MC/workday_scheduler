@@ -13,4 +13,9 @@ function getStorage(){
         $(this).find($(".description")).val(storedValue)
     })
 }
+
+function currentDay() {
+    var id=(this).attr("currentDay");
+    moment().format('MMMM Do YYYY, h:mm:ss a');
+}
 getStorage();

@@ -20,4 +20,5 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-https://user-images.githubusercontent.com/79948400/115154647-d9ed1600-a030-11eb-9ad5-8478dac6703d.png
+![image](https://user-images.githubusercontent.com/79948400/119871091-f48b9800-bed6-11eb-9774-2bc398b217cc.png)
+

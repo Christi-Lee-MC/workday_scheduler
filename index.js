@@ -1,3 +1,6 @@
+var currentDay=document.getElementById("currentDay")
+
+
 $(".saveBtn").click(function(){
 var textValue=$(this).siblings(".description").val();
 var id=$(this).parent().attr("id");
@@ -14,8 +17,16 @@ function getStorage(){
     })
 }
 
-function currentDay() {
-    var id=(this).attr("currentDay");
-    moment().format('MMMM Do YYYY, h:mm:ss a');
+// use moment to insert current date at top of the page
+
+function currentDay(){
+    $(".currentDay").each(function(){
+        const moment = require('moment');
+        const today= moment();
+    $(this).find($(".currentDay")).val(today.format());
+    });
 }
+
+// ?
+moment().format('MMMM Do YYYY, h:mm:ss a');
 getStorage();
